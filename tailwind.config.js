@@ -16,7 +16,8 @@ export default {
         'lime-primary':'#16c586',
         'emerald-primary':'#03FCFC',
         'light-color-primary':'#f2f0ff',
-        'light-color-secondary':'#b5b3bc'
+        'light-color-secondary':'#b5b3bc',
+        'grenn-button':'#06b94e'
       },
     },
   },

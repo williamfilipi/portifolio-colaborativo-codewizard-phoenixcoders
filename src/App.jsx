@@ -1,6 +1,7 @@
 import MeuComponente, { Cards, Inscricao } from "./components/About-o-projeto.collection/About"
 import Comments from "./components/About-o-projeto.collection/comments" 
 import OurTeam from "./components/equipe.collection/team"
+import Footer from "./components/About-o-projeto.collection/footer"
 function App() {
   
   return (
@@ -23,6 +24,7 @@ function App() {
       <Inscricao/>
 
       <Comments/>
+      <Footer/>
 
       {/* todo: Comment Component */}
       {/* todo: Footer Component */}

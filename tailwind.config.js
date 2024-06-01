@@ -17,7 +17,8 @@ export default {
         'emerald-primary':'#03FCFC',
         'light-color-primary':'#f2f0ff',
         'light-color-secondary':'#b5b3bc',
-        'grenn-button':'#06b94e'
+        'grenn-button':'#06b94e',
+        'button-primary':'#0368ff'
       },
     },
   },

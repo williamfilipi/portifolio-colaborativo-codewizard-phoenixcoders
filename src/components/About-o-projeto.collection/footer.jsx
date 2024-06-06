@@ -10,7 +10,7 @@ function Footer() {
     return ( 
         <>
         <section className="m-24">
-            <div className="flex bg-black w-full p-4 font-custom-inconsolata text-2xl rounded-lg">
+            <div className="flex bg-black w-full p-4 font-custom-inconsolata text-2xl rounded-lg sm:hidden">
               <h3 className="m-8 text-center">Estamos ansiosos para receber sua inscrição e dar as boas-vindas a você em nossa comunidade!</h3>
               <button className="my-8 mx-20 px-8 py-2 bg-grenn-button rounded-lg text-xl w-96">Quero Participar</button>
             </div>
@@ -21,11 +21,10 @@ function Footer() {
                 <button className="my-8 mx-8 px-4 py-2 bg-button-primary rounded-lg text-sm w-28 flex justify-center">GitHub
                 <img src={GitHub} className="w-4 mx-1 " />
                 </button>
-                <h4 className="p-10">Sobre</h4>
-                <h4 className="p-10">Equipe</h4>
-                <h4 className="p-10">Projetos</h4>
-                <h4 className="p-10">Participantes</h4>
-
+                <h4 className="p-10 sm:flex-col">Sobre</h4>
+                <h4 className="p-10 sm:flex-col">Equipe</h4>
+                <h4 className="p-10 sm:flex-none">Projetos</h4>
+                <h4 className="p-10 sm:flex-none">Participantes</h4>
                 <div className="flex flex-col items-end w-2/3 h-9 m-8 pr-4">
                   <div className="flex">
                   <img className="inline-block -m-2 p-0" src={Dev1}/>

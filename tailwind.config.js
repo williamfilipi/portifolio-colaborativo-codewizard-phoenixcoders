@@ -8,6 +8,22 @@ export default {
       'custom-inconsolata':'Inconsolata',
       'custom-zenDots':'Zen Dots'
     },
+    screens: {
+      'sm': {'max': '330px'},
+      // => @media (max-width: 320px) { ... }
+
+      'md': {'max': '420px'},
+      // => @media (max-width: 420px) { ... }
+
+      'lg': '1024px',
+      // => @media (max-width: ##px) { ... }
+
+      'xl': '1280px',
+      // => @media (max-width: ##px) { ... }
+
+      '2xl': '1536px',
+      // => @media (max-width: ##px) { ... }
+    },
     extend: {
       colors:{
         'dark-color-primary':'#0F0920',
